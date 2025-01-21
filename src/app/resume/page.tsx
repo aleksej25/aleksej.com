@@ -1,5 +1,3 @@
-import { DownloadIcon } from '@heroicons/react/outline'; // You can use this icon or import your preferred one
-
 export default function Resume() {
   return (
     <div className="p-8">

@@ -1,5 +1,6 @@
 import React from "react";
 import { projectData } from "./project-data";
+import Image from 'next/image';
 
 export default function Projects() {
   return (
@@ -15,7 +16,7 @@ export default function Projects() {
           <div key={index} className="card-container">
             <div className="card">
               <div className="card-front">
-                <img
+                <Image
                   src={`/static/${project.image}`}
                   alt={project.name}
                   className="w-full h-full object-cover"
